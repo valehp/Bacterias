@@ -1,0 +1,5 @@
+- NUM:  Sistemas Numéricos y Álgebra
+- CALC: Cálculo
+- ESTR: Estructuras Algebraicas
+- GEOM: Geoometría
+- AZAR: Datos y Azar
