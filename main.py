@@ -161,7 +161,7 @@ def UsarBacteria(EVALUACIONES, NOTAS, GRUPOS, ALUMNOS, REPETICIONES, IT, args, s
     for i in range(REPETICIONES):
         print("rep ", i)
         aux_time = []
-        mi_bacteria.reset(args.pob_size, args.PC, args.PCL, args.PT, args.PTL, args.PM, args.PML, args.PL)
+        mi_bacteria.reset()
         start = time.time()
         mi_bacteria.generar_poblacion()
         fitness = float('inf')

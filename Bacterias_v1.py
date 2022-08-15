@@ -25,6 +25,7 @@ class BactariaBase:
 		self.pm = PM                        # Probabilidad de mutación
 		self.pm_l = PML                     # prob mutación libe
 		self.prob_liberar = PL              # Probabilidad de liberar material genético en el ambiente al morir
+		self.kill_p = kill_percent
 		self.GenerarMinimos(max_group)
 		self.reset()
         
